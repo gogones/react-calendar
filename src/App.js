@@ -3,6 +3,8 @@ import React from "react";
 import Calendar from "./components/Calendar";
 
 import "./App.css";
+import CalendarTwo from "./components/CalendarTwo";
+import CalendarThree from "./components/CalendarThree";
 
 class App extends React.Component {
   render() {
@@ -18,6 +20,8 @@ class App extends React.Component {
         </header>
         <main>
           <Calendar />
+          <CalendarTwo />
+          <CalendarThree />
         </main>
       </div>
     );
@@ -25,4 +29,3 @@ class App extends React.Component {
 }
 
 export default App;
-//
